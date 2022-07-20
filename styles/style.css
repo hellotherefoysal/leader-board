@@ -92,3 +92,44 @@ hr{
     row-gap: 26px;
     column-gap: 46px;
 }
+
+.course-image img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-info{
+    display: flex;
+}
+
+.fa-star{
+    color: #FFC014;
+}
+
+#grey-rating{
+   color: #AEAEAE;
+}
+
+#hour{
+    margin-left: 5px;
+}
+
+.clock{
+    background-color: #FFE4E8;
+    width: 85px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.course{
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+}
